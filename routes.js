@@ -27,7 +27,15 @@ function ensureAccount(req, res, next) {
   }
   res.redirect('/');
 }
-
+/*
+  WHY JS FILES ARE CALLED INDEX IN NODE.JS?
+ If there is no package.json file present in the directory, then node will attempt to
+ load an index.js or index.node file out of that directory. For example, if there was
+ no package.json file
+ in the above example, then require('./some-library') would attempt to load:
+        ./some-library/index.js
+        ./some-library/index.node
+*/
 exports = module.exports = function(app, passport) {
   //front end
   app.get('/', require('./views/index').init);

@@ -1,5 +1,7 @@
 'use strict';
-
+/* The User schema was designed to facilitate the login system no matter what role is 
+being played. After a user is authenticated you have access to the roles that user can play.
+*/
 exports = module.exports = function(app, mongoose) {
   var userSchema = new mongoose.Schema({
     username: { type: String, unique: true },

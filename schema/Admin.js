@@ -1,5 +1,9 @@
 'use strict';
+/*
 
+ Admins wouldn't need this functionality since they can't register
+
+ */
 exports = module.exports = function(app, mongoose) {
   var adminSchema = new mongoose.Schema({
     user: {

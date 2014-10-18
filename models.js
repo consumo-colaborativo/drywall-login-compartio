@@ -1,4 +1,5 @@
 'use strict';
+/* All the schemas are included here */
 
 exports = module.exports = function(app, mongoose) {
   //embeddable docs first

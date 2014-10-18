@@ -87,6 +87,12 @@ app.utility = {};
 app.utility.sendmail = require('./util/sendmail');
 app.utility.slugify = require('./util/slugify');
 app.utility.workflow = require('./util/workflow');
+/*
+Now every request can get a new workflow quickly 
+by just asking the app for a new one req.app.utility.workflow(req, res).
+The workflows we create live and die during each request/response 
+life-cycle, hence they are re-created when another subsequent request is made.
+*/
 
 //listen up
 app.server.listen(app.config.port, function(){
