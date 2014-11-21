@@ -1,5 +1,8 @@
 'use strict';
 
+//    /schema/Category.js defines the structure for our Category documents
+//    /views/admin/categories/index.js contains all of our CRUD methods. 
+
 exports.find = function(req, res, next){
   req.query.pivot = req.query.pivot ? req.query.pivot : '';
   req.query.name = req.query.name ? req.query.name : '';

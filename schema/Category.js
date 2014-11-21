@@ -1,5 +1,7 @@
 'use strict';
 
+// /schema/Category.js defines the structure for our Category documents.
+
 exports = module.exports = function(app, mongoose) {
   var categorySchema = new mongoose.Schema({
     _id: { type: String },

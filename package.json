@@ -1,9 +1,20 @@
 {
-  "name": "Drywall",
-  "version": "0.14.4",
-  "private": true,
+  "name": "compart.io",
+  "version": "0.0.1",
+  "description": "A place to get & share",
+  "author": {
+    "name": "compart.io",
+    "email": "hola@compart.io"
+  },
   "scripts": {
     "start": "node app.js"
+  },
+  "website": {
+    "url": "compart.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/consumo-colaborativo/compart.io.git"
   },
   "dependencies": {
     "async": "^0.9.0",
