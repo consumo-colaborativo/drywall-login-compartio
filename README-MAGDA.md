@@ -1,6 +1,14 @@
 -------------------------------------------------------------
 -- Info by Magda extracted from drywall proyect 18-10-2014 --
 -------------------------------------------------------------
+# NOTAS IMPORTANTES:
+    - /config.js no está en github ya que tiene datos sensibles, hay que enviarlo a parte al grupo compartio, y en caso de cambios no olvidar avisar!!
+    -
+    -
+    -
+    -
+    -
+
 # ARCHIVOS EN ROOT
 ## APP.JS
     - app.use, app.config, app.server, app.utility …
